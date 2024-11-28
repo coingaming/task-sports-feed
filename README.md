@@ -21,7 +21,7 @@ All 10 matches should be rendered on a web-based UI showing the `name` and `stat
 
 A few things to note:
 - No external database should be used. If persistence is needed, it should be done entirely in memory.
-- Order is very important. Messages for each match should be processed in the order it was defined in the `json` file. For example, the last status for event `23499706` should be `paused`.
+- Order is very important. Messages for each match should be processed in the order it was defined in the `json` file. For example, the last status for match `23499706` should be `paused`.
 - We're very much interested in how you use concurrency.
 - We want to see how you test the solution.
 - The application does not need to be deployed on a remote server, but appropriate instructions on how to run it locally is essential.
